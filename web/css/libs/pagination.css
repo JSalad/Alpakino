@@ -1,0 +1,31 @@
+.custom-pagination {
+  min-width: min(320px, 100%);
+  margin: 0 auto;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.pager-digits a {
+  font-size: 20px;
+  color: var(--cl-gray);
+  min-width: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 32px;
+}
+
+.custom-pagination .pager i {
+  font-size: 25px;
+  color: var(--primary);
+  transition-duration: 0.3s;
+}
+
+.custom-pagination .pager i:hover{
+  color: var(--secondary);
+  transition-duration: 0.3s;
+}
+
+a.pagi-tile.active {
+  color: var(--primary);
+}

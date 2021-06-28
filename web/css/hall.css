@@ -1,0 +1,34 @@
+.ticket-holder p.schematic.screen{
+  background: transparent !important;
+}
+
+.ticket-holder .schematic-row{
+  height: 48px;
+  width: calc(42px * 20);
+}
+
+.ticket-holder .schematic{
+  min-width: 42px;
+  width: 42px;
+  height: 42px;
+  transition-duration: 0.3s;
+}
+
+.ticket-holder .schematic::before{
+  font-size: 18px !important;
+}
+
+.ticket-holder .schematic.selected{
+  transform: scale(0.9);
+  background: rgba(0, 255, 0, 0.1);
+  transition-duration: 0.3s;
+}
+
+.ticket-holder .schematic.occupied {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.hall-shcematic {
+  margin-bottom: 20px;
+}
